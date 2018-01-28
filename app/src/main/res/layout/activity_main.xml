@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.luigi.petagram.MainActivity">
+
+    <include
+        android:id="@+id/miActionBar"
+        layout="@layout/actionbar">
+    </include>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMascotas"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/miActionBar"
+        android:padding="10dp"/>
+
+
+
+    <!--Button
+        android:id="@+id/btnMiBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitulo"
+        android:text="@string/texto_boton_click"
+        android:theme="@style/MiBotonRaised"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabMiFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnMiBoton"
+        android:src="@drawable/ic_launcher_foreground" /-->
+
+
+</RelativeLayout>
+
